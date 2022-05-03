@@ -8,46 +8,41 @@
     <link rel="stylesheet" href="calcstyle.css">
 </head>
 <body>
-    <script src="calcjs.js"></script>
     <div class = title>Simple Calculator</div>
 
-    <table border="3">
-        <tr>
-            <td>
-                <input type="text" id="result"/>
-
-            </td>
-        </tr>
-    </table>
+    
 
     <div class="grid-container">
-        <div class="grid-item1">AC</div>
-        <div class="grid-item2">+/-</div>
-        <div class="grid-item3">%</div>
-        <div class="itemSymbol">/</div>
+        <div class="buttons">
+        <div id="display" class="display" style="background-color: black; text-align: right; height: 20px;"></div>
+        <div class="button">AC</div>
+        <div class="button">+/-</div>
+        <div class="button">%</div>
+        <div class="button">/</div>
 
-        <div class="grid-item1">7</div>
-        <div class="grid-item2">8</div>
-        <div class="grid-item3">9</div>
-        <div class="itemSymbol">*</div>
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="button">*</div>
 
-        <div class="grid-item4">4</div>
-        <div class="grid-item5">5</div>
-        <div class="grid-item6">6</div>
-        <div class="itemSymbol">-</div>
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="button">-</div>
 
-        <div class="grid-item7">1</div>
-        <div class="grid-item8">2</div>
-        <div class="grid-item9">3</div>
-        <div class="itemSymbol">+</div>
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="button">+</div>
 
-        <div class="grid-item10">0</div>
-        <div class="grid-item11">.</div>
-        <div class="itemSymbol">=</div>
+        <div class="button1">0</div>
+        <div class="button">.</div>
+        <div id="equal" class="button">=</div>
 
 
-
+            </div>
     </div>
-    
+    <script src="calcjs.js"></script>
+
 </body>
 </html>

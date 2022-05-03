@@ -1,18 +1,34 @@
-.grid-container {
+.buttons {
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     background-color: black;
     padding: 10px;
 
 }
-.grid-container > div {
+.buttons > div {
     background-color: gray;
     border: 1px solid black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    
+    
 }
-.grid-item10 {
+.button1 {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+.display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.button1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
 }
